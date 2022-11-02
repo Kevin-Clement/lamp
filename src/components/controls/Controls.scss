@@ -1,0 +1,44 @@
+.controls{
+
+    width: 100px;
+    background-color: #BDDDDD;
+    border-radius: 8px;
+    .controls__steps{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        img{
+            margin: 10px 0;
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            cursor: pointer;
+        }
+    }
+    .controls-mode{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        margin-top: 10px;
+        img{
+            padding: 10px;
+            cursor: pointer;
+        }
+        .controls-mode__light{
+            background-color: #FFF3DA;
+            border-radius: 0 0 0 8px;
+        }
+        .controls-mode__dark{
+            background-color: #94A6A6;
+            border-radius: 0 0 8px 0;
+        }
+    }
+}
+
+.active{
+    background-color: #DEEEEE;
+    border-radius: 4px;
+    padding: 3px;
+}
